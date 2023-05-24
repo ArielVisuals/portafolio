@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Encriptador/Desencriptador</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <label class="titulo">Introduce el texto a encriptar o desencriptar:</label>
+    <textarea
+      class="textoingresado"
+      id="texto"
+      placeholder="Ingresa el texto aqui"
+    ></textarea>
+
+    <div class="botones">
+      <button class="boton" id="encriptar">
+        <span class="texto">Encriptar</span>
+      </button>
+      <button class="boton2" id="desencriptar">
+        <span class="texto2">Desencriptar</span>
+      </button>
+    </div>
+    <div class="rectangulo"></div>
+    <div class="copiar">
+      <button class="boton3" id="copiar">
+        <span class="texto3">copiar</span>
+      </button>
+      </div>
+    <img class="logo" src="img/Vector.svg" alt="logo" />
+    <img class="exclamacion" src="img/Frame 1.svg" alt="Advertencia de uso" />
+    <textarea
+      class="resultado"
+      id="resultado"
+      readonly
+      placeholder="Resultado:"
+    ></textarea>
+    <script src="script.js"></script>
+  </body>
+</html>

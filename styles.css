@@ -1,0 +1,284 @@
+body {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+
+  /* Light blue/light-blue-100 */
+
+  background: #f3f5fc;
+}
+.titulo {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  color: #0a3871;
+  padding: 20%;
+}
+.textoingresado {
+  position: absolute;
+  width: 680px;
+  height: 288px;
+  left: 240px;
+  top: 168px;
+  background-color: transparent;
+  border: #0a3871;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  /* or 48px */
+
+  color: #0a3871;
+}
+.resultado {
+  position: absolute;
+  background-color: transparent;
+  width: 336px;
+  height: 781px;
+  left: 1032px;
+  top: 72px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+
+  /* Gray/gray-400 */
+
+  color: #495057;
+}
+.logo {
+  /* Logo */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  position: absolute;
+  width: 120px;
+  height: 48px;
+  left: 40px;
+  top: 40px;
+}
+.exclamacion {
+  /* Frame 1 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  width: 252px;
+  height: 18px;
+  left: 240px;
+  top: 851px;
+}
+.botones {
+  /* Frame 3 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  position: absolute;
+  width: 680px;
+  height: 67px;
+  left: 240px;
+  top: 885px;
+}
+.boton {
+  /* Button */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 8px;
+
+  width: 328px;
+  height: 67px;
+
+  /* Dark blue/dark-blue-300 */
+
+  background: #0a3871;
+  border-radius: 24px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.boton .texto {
+  width: 280px;
+  height: 19px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  /* White */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.boton2 {
+  /* Button */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 8px;
+
+  width: 328px;
+  height: 67px;
+
+  /* Dark blue/dark-blue-300 */
+
+  background: #ffffff;
+  border-radius: 24px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.boton2 .texto2 {
+  /* Button */
+
+  width: 280px;
+  height: 19px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  /* Dark blue/dark-blue-300 */
+
+  color: #0a3871;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.copiar {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 8px;
+
+ 
+}
+.copiar .boton3 {
+  /* Button */
+
+  /* Auto layout */
+  position: absolute;
+  width: 336px;
+  height: 67px;
+  left: 1032px;
+  top: 885px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 8px;
+
+  width: 328px;
+  height: 67px;
+
+  /* Dark blue/dark-blue-300 */
+
+  background: #ffffff;
+  border-radius: 24px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.boton3 .texto3 {
+  /* Button */
+
+  width: 280px;
+  height: 19px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  /* Dark blue/dark-blue-300 */
+
+  color: #0a3871;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.rectangulo {
+  /* Rectangle 1 */
+
+  position: absolute;
+  width: 400px;
+  height: 944px;
+  left: 1000px;
+  top: 40px;
+
+  /* White */
+
+  background: #ffffff;
+  /* shadow */
+
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+}
